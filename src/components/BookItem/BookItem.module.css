@@ -1,0 +1,24 @@
+.header {
+  max-width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detail_info {
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  line-height: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bookCardBlock {
+  min-height: 252px;
+  cursor: pointer;
+}
+
+.bookCardBlockContent {
+  min-height: 136px;
+}
